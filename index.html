@@ -6,18 +6,24 @@
 </head>
 <body>
 <div>
-    Number of TVs sold so far: <item id="tvSold"></item></br>
-    Number of TVs initially stocked: <item id="tvBought"></item></br>
-    Number of TVs in stock: <item id="tvInStock"></item></br></br>
-    This are all the TV's in inventory: </br></br>
-    <item id="inventory"></item>
+    <input type="button" name="sort-price" value="Sort by Price" id="sort-price" onclick="wholeListButton()">
+    <input type="button" name="ambiTV" value="AmbiLight TV's" id="sort-ambi" onclick="ambiButton()">
+    <input type="button" name="soldouttvs" value="Sold Out TV's" id="sort-soldout" onclick="soldoutButton()">
+<!--    <input type="button" name="alltvs" value="Show inventory" id="whole-list" onclick="wholeList()">-->
+
+    </br></br>
+
+    Number of TVs sold so far: <article id="tvSold"></article></br>
+    Number of TVs initially stocked: <article id="tvBought"></article></br>
+    Number of TVs in stock: <article id="tvInStock"></article></br></br>
+    Results of your inquiry: </br></br>
+    <article id="inventory"></article>
 </div>
-
-
 <script src="main.js"></script>
 <script src="opdracht1.js"></script>
 <script src="opdracht2.js"></script>
 <script src="opdracht3.js"></script>
 <script src="opdracht4.js"></script>
+<script src="bonus-opdracht.js"></script>
 </body>
 </html>
