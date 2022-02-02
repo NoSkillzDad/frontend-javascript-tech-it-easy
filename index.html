@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Tech It Easy Dashboard</title>
 </head>
 <body>
+<div>
+    <input type="button" name="sort-price" value="Sort by Price" id="sort-price" onclick="wholeListButton()">
+    <input type="button" name="ambiTV" value="AmbiLight TV's" id="sort-ambi" onclick="ambiButton()">
+    <input type="button" name="soldouttvs" value="Sold Out TV's" id="sort-soldout" onclick="soldoutButton()">
 
+    <br><br>
+
+    <p>Number of TV's sold so far: <span id="tvSold"></span></p>
+    <p>Number of TV's initially stocked: <span id="tvBought"></span></p>
+    <p>Number of TV's in stock: <span id="tvInStock"></span></p><br>
+    <p>Results of your inquiry: </p><br>
+     <article id="inventory"></article>
+</div>
+<script src="main.js"></script>
+<script src="opdracht1.js"></script>
+<script src="opdracht2.js"></script>
+<script src="opdracht3.js"></script>
+<script src="opdracht4.js"></script>
+<script src="bonus-opdracht.js"></script>
 </body>
 </html>
